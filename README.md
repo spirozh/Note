@@ -1,7 +1,7 @@
 Note
 ====
 
-A meditation timer that also helps novices to remember to note at regular intervals.
+A meditation timer that helps novices to remember to note at regular intervals.
 
 Credits
 =======

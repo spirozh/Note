@@ -25,6 +25,4 @@ public class Note extends Activity {
         return true;
     }
     
-    
-    
 }

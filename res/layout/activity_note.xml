@@ -2,13 +2,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".Note" >
 
-    <TextView
+    <EditText
+        android:id="@+id/textTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:ems="6"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:freezesText="false"
+        android:inputType="none" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textTime"
+        android:layout_toRightOf="@+id/textTime"
+        android:text="@+string/start" />
 
 </RelativeLayout>
